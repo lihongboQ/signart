@@ -10,7 +10,6 @@ import SignCharacteristic from "./SignCharacteristic";
 import ServiceSystem from "./ServiceSystem";
 import BusinessPartner from "./BusinessPartner";
 import OurTeam from "./OurTeam";
-// import StudentWorks from "./StudentWorks";
 import Disc from "./Disc";
 import AboutUs from "./AboutUs";
 import { useState } from "react";
@@ -43,7 +42,6 @@ export default function Homepage() {
           <OurTeam />
           <SignCharacteristic characteristicType={characteristicType} setCharacteristicType={setCharacteristicType} />
           <AboutUs />
-          {/* <StudentWorks /> */}
           <Disc />
           <BusinessPartner />
           <Slogan />
