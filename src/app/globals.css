@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../font/Lexend/static/Lexend-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'FusionPixel';
+  src: url('../font/fusionPixel/fusion-pixel.ttf');
+}
+@font-face {
+  font-family: 'GuanZhi';
+  src: url('../font/GuanZhi/GuanZhi-8px.ttf');
+}
+@font-face {
+  font-family: 'Misto';
+  src: url('../font/Misto/Misto.ttf');
+}
+body {
+  background: #1A1A1A;
+  font-family: 'Alibaba PuHuiTi 2.0';
+  font-style: normal;
+  color: #FFFFFF;
+  /* box-sizing: border-box; */
+}
